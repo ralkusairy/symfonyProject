@@ -1,0 +1,14 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+about:
+  path: /about
+  controller: App\Controller\AboutController::index
+
+login:
+  path: /login
+  controller: App\Controller\LoginController::login
+
+home:
+  path: /
+  controller: App\Controller\HomeController::index
